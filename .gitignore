@@ -1,0 +1,36 @@
+# ==========================
+# GIS Data & Large Files
+# ==========================
+*.tif
+*.tiff
+*.tfw
+*.ovr
+*.aux.xml
+*.cpg
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.shp
+*.shx
+*.zip
+*.rar
+*.7z
+*.lock
+*.qgz
+
+# ==========================
+# Specific Directories
+# ==========================
+# 忽略整个输入和输出文件夹，防止误传
+01_Input/
+03_Output/
+
+# ==========================
+# System & Python Cache
+# ==========================
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
